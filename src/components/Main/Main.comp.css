@@ -1,0 +1,28 @@
+.caixa{
+    display: flex;
+ 
+    align-items: center;
+    width: 100%;
+    max-width: 1366;
+
+    margin: 2 auto; 
+    
+
+    .text{
+        font-family: "Valorant Font";
+        position: relative;
+        margin-right: 50px;
+    }
+    h1{
+        font-family: "Valorant Font";
+        font-size: 70px;
+        letter-spacing: 15px;
+
+        color: transparent;
+        -webkit-text-stroke: 2px #454545;
+        
+        
+    }
+   
+    
+  }

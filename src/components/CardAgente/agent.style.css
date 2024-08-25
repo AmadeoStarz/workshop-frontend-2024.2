@@ -1,0 +1,115 @@
+.Agents > div {
+    display: flex;
+    gap: 150px; 
+    align-items: center;
+    position: relative;
+  }
+  
+  .Agentes {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    justify-content: flex-end;
+    filter: saturate(0.8);
+    transition: all 0.3s;
+  
+    &:hover {
+      filter: saturate(1);
+      .texto {
+        opacity: 1;
+      }
+      .Fundo span {
+        background-size: 350%;
+        transition: all 0.3s;
+      }
+    }
+  
+    .texto,
+    .habilidades {
+      z-index: 1;
+    }
+    position: relative;
+  }
+  
+  .texto {
+    font-family: Valorant;
+    align-self: flex-start;
+    margin-left: -10px;
+    opacity: 0.5;
+    transition: all 0.3s;
+  
+    p {
+      color: rgb(224, 125, 125);
+      font-weight: lighter;
+    }
+  
+    strong {
+      font-size: 35px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: transparent;
+      -webkit-text-stroke: 1px rgb(252, 144, 144);
+    }
+  }
+  
+  .habilidades {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    align-self: flex-end;
+    padding: 10px;
+    border-radius: 90px;
+    border: 1px solid #580100;
+    background: #ea0808;
+  }
+  
+  .Fundo {
+    position: absolute;
+    inset: 0;
+    background-color: #09111e;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+  
+    span {
+      display: block;
+      width: 99%;
+      height: 99%;
+      opacity: 0.9;
+      background-repeat: no-repeat;
+      background-size: 300%;
+      background-position: 40% 30%;
+  
+      Image {
+        position: 30%;
+      }
+    }
+  }
+  .cube {
+    position: relative;
+    color: rgb(224, 125, 125);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    background-color: #09111e;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: valorant;
+    opacity: 0;
+    z-index: 100;
+    &:hover{
+        opacity: 0.9;
+        transition: all 0.5s;
+    }
+    
+  }
+    

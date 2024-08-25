@@ -1,0 +1,37 @@
+header{
+  width: 100%;
+  padding: 0px;
+  background-color: #242424;
+  
+  .headerconteudo{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    color: #857474;
+    margin: 0 auto;
+
+    > span{
+      width: 2px;
+      height: 25px;
+      background-color: #ff2a00;
+    }
+
+    nav{
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+      
+
+      a{
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.2px;
+        text-decoration: none;
+        color:#ff2a00;
+      }
+    }
+    
+  }
+}

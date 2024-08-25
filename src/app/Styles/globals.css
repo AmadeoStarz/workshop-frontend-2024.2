@@ -1,0 +1,35 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Valorant";
+  src: url("../Styles/font/Font.ttf");
+}
+:root {
+  --text: #252525;
+  
+}
+body {
+  
+
+  color: var(--text);
+  font: 400 1rem, sans-serif;
+}
+
+.caixa{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+
+  min-height: 100vh;
+  background-image: url("fundo.png");
+  background-position: center;
+  background-repeat:no-repeat ; 
+  background-size: cover;
+  
+
+
+}
